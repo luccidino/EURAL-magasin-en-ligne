@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "builds": [{ "src": "next.config.js", "use": "@vercel/next" }],
+  "env": {
+    "NEXT_PUBLIC_SUMUP_CLIENT_ID": "@next_public_sumup_client_id",
+    "SUMUP_ACCESS_TOKEN": "@sumup_access_token"
+  }
+}
